@@ -9,8 +9,8 @@ first = 'Springer'
 second = 'Bregman'
 third = 'Alutve'
 
-print(second) # prints Bregman
+print(first)
 
-second = 0.280
+first = third
 
-print(second) # prints 0.28 ... warning tells u redefined str to float in real world app if u called method on second var but accident reset to float u will get error due to being the wrong data type == poor practice == bug
+print(first) # overide var dynamically
