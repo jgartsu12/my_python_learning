@@ -12,11 +12,4 @@ Sales Team
 """
 
 print(email_content) 
-# prints : 
-# Hi Seb
-
-# Thank you for purchasing Python e course
-
-# Regards,
-
-# Sales Team
+# str interpolation built for dynamic sys so u dont have to hard code everything and wrap elements like product or name and customize to build sys and run custom
