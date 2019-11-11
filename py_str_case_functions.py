@@ -2,3 +2,4 @@
 sentence = 'the quick brown fox jumped'.title()
 print(sentence)
 
+# prints The Quick Brown Fox Jumped
