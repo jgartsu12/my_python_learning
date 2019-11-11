@@ -1,8 +1,11 @@
 sentence = 'The quick brown fox jumped over the lazy dog.'
-# find method
-query = sentence.find('qui')
-print(query) # prints 4 cuz qui is in quick which is in the fourth index in the str in sentence variable ... matches letters in the string in query called a substring
-# index
+# index method
+query = sentence.index('quick')
+query_two = sentence.index('quick')
+
+print(query) # prints 4 again ... difference --> algorithms ... index throughs index if it cant find value where find will do -1
+print(query_two) 
+
 # in method
 # why use one method over the other
 
