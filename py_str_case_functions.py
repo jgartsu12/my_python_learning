@@ -1,5 +1,5 @@
-# capitalize first letter of ea word using .title()
-sentence = 'the quick brown fox jumped'.title()
+# lowercase all letters.
+sentence = 'THE QUICK BROWN FOX JUMPED'.lower()
 print(sentence)
 
-# prints The Quick Brown Fox Jumped
+# prints the quick brown fox jumped 
