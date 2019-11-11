@@ -4,4 +4,4 @@ starter_sentence = 'The quick brown fox jumped'
 
 new_sentence = 'Thy' + starter_sentence[3:]
 # leaving blank after colon tells python u want to take range all the way to send
-print(new_sentence) #prints 
+print(new_sentence) #prints Thy quick brown fox jumped
