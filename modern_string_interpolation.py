@@ -1,4 +1,4 @@
 name = 'Seb'
 
-greeting = f'Hi {2+2}'
+greeting = f'Hi {{bracket}}'
 print(greeting) # prints Hi 4 in terminal
