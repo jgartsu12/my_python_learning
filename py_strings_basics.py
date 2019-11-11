@@ -4,4 +4,6 @@ sentence_two = 'That is my dog\'s bowl' # syntax error  cuz dog's with single qu
                                         # \ includes apostphe instead of ending the line could use double quotes instead
 sentence_three = "That is my dog's bowl" # this prevents use of back slash \
 
+sentence_four = "Tiffany said,\"That is my dog's bowl\"" # use back slash to escape str values inside of python example
+
 print(sentence_two)
