@@ -1,7 +1,7 @@
 sentence = 'The quick brown fox jumped over the lazy dog.'
 # in operator most prefered by py develops
-query = 'fox' in sentence
+query = 'oops' in sentence
 
-print(query) # prints True
+print(query) # prints False
 
 
