@@ -1,3 +1,5 @@
-sentence = 'The quick brown fox jumped'.upper() # call method and functions on objects
-                                                # convert entrie str to uppercase
+sentence = 'The quick brown fox jumped' # str obj
+
+sentence.upper() # only occurs when called
+
 print(sentence)
