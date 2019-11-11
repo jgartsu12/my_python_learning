@@ -1,9 +1,12 @@
-# How to Use Python's format method to Implement Index Based String Interpolation
-name = 'Seb'
+name = 'Kristine'
 age = 12
-product = 'Python eLearning Course'
+product = 'Python eLearning course'
+from_account = 'Jordan'
 
-greeting = "Product Purchase: {2} - Hi {0}, you are listed as {1} years old and you have purchased: {2} - {3}".format(name, age, product, 'John')
-# order doesnt matter just has to be mapped to right index value in .format(argument0...)
-print(greeting)
-# prints : Product Purchase: Python eLearning Course - Hi Seb, you are listed as 12 years old and you have purchased: Python eLearning Course - John
+# greeting = "Product Purchase: {2} - Hi {0}, you are listed as {1} years old. - {3}".format(name, age, product, 'Jordan')
+
+# str literal version: 
+greeting = f"Product Purchase: {product} - Hi {name}, you are listed as {age} years old. - {from_account}"
+                        # dont have to worry about using index values using str literals!!
+
+print(greeting) # prints same as w/o str literal
