@@ -2,7 +2,7 @@
 heading = "Python: An Introduction"
 header, _, subheader = heading.partition(': ')
 
-print(header) # prints Python
-print(subheader) # prints An Introduction
+print(header) # 
+print(subheader) #
 # NOTES:
-# want to get rid of ': ' purpose of partition adn the reassignmnt
+# used in machine learning when u want select part of the data
