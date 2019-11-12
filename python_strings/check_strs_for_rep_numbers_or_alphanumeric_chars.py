@@ -2,11 +2,9 @@
 api_data = '5' # string with 5 inside
 greeting = 'Hi '
 
-print(api_data.isalpha()) # prints False
-print(greeting.isalpha()) # prints True
+# isnumeric() fn
+print(api_data.isnumeric()) # prints True
+print(greeting.isnumeric()) # prints False
 #Notes
-# focus on APIs data to check for interdata between api responses
-# API data comes from string format mostly
-#working with str data
-# working w/ api's u will get response and u will need to be a db query ... db needs id with an integer
-# isalpha () - chekcs for alpha numeric in the string - checking to see what the value is
+# 5 is a string with a number thus it is numeric so its True
+# use isnumeric() in db query to get integer instead of false positives
