@@ -1,5 +1,5 @@
 total = 100
 
-total = total + 10
+total += 10
 
-print(total)  # prints 110
+print(total) # prints 110
