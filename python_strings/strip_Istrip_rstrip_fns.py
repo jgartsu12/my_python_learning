@@ -1,8 +1,10 @@
 # Overview of Python's strip, lstrip (L strip), and rstrip Functions
 url = '     https://google.com      '
 
-print(url.strip('https://'))
-
 # using L - strip => Left strip
-print(url.lstrip('htts://'))
-    # pirnts google.com
+url = url.lstrip('htts://')
+#r strip
+url = url.rstrip('.com')
+url = url.capitalize()
+
+print(url) # prints out just Google
