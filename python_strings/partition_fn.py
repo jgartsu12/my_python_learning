@@ -7,4 +7,5 @@ print(first) # prints Python
 print(second) # prints :
 print(third)  # prints An Introduction, and Python: Advanced
 # NOTES:
-# always returns 3 elements
+# how parition works 
+    # if returnong chapter response from API returns every first value and evertyhing at the end
