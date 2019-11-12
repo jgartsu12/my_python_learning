@@ -7,3 +7,4 @@ qty = 450
 product_cost += (commission_rate * product_cost)
 print(product_cost * qty) # prints 42962.40000000000282883716451 
 # decimals give u higher level of precision 
+# dec vital for science - NASA had crash of shuttle cuz they used floating
