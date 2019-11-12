@@ -15,10 +15,13 @@ print(100 // 42) # prints 2 rounds down automatically for us \\    ** used for a
 print(100 // 38) # prints 2 rounds down to nearest whole number not like normal rounding
 
 print('Multiplication')
-print(100 * 42)
+print(100 * 42) # prints 4200
 
-print('Modulus')
-print(100 % 42)
+print('Modulus')  # --> % prints the amount of times a number goes into a number to get the **REMAINDER** # use case odd vs even 
+print(100 % 42) # prints 16
+print(2 % 2)  # prints 0    --> used to find if value is even or odd --> even numbers always have 0; odds always have 1
+print(5 % 2) # pritns 1
+print(25 % 2) # prints 1
 
 print('Exponents')
-print(100 ** 42)
+print(100 ** 42)  # prints 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000
