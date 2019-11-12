@@ -3,6 +3,4 @@ sale_price = 14.99 # float -> precision isnt near as granular as a decimal .. no
 tip_percentage = 1/5 # fraction represents 0.2 or 20%
 new_product = 150  
 
-print(sales_price + new_product) # prints 164.99 # python manages number type by itself
-# combine for calculation to switch between number types very flexible
-# can take two diff types of number data types and converts final output into a float
+print(product_id + new_product) # prints 273 (123 + 150)
