@@ -1,5 +1,5 @@
 print('Addition')
-print(100 + 42)
+print(100 + 42) # prints 142, an integer  
 
 print('Subtraction')
 print(100 - 42)
