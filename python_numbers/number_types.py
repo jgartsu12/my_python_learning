@@ -4,3 +4,5 @@ tip_percentage = 1/5 # fraction represents 0.2 or 20%
 new_product = 150  
 
 print(product_id + new_product) # prints 273 (123 + 150)
+
+# dynamically converts when working with diff datatypes in python
