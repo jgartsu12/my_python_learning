@@ -5,4 +5,4 @@ qty = 450
 
 i
 
-print(int(product_cost) * qty)) # prints 88  
+print(int(product_cost) * qty)) # prints 88  - keeps whatever int value is there
