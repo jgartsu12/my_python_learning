@@ -1,5 +1,5 @@
 total = 100
 
-total //= 10
+total **= 2
 
-print(total) # 10 
+print(total) # 10000
