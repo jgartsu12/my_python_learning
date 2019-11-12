@@ -1,5 +1,10 @@
 total = 100
 
-total %= 2
+product_two = 120
+product_three = 10
 
-print(total) # 0
+total += product_two 
+total += product_three
+# reassign value
+# most often used spceilly when incrementing
+print(total) 
