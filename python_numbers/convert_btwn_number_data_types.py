@@ -3,5 +3,6 @@ product_cost = 88.40
 commission_rate = 0.08
 qty = 450
 
-print(product_cost * qty)  # this will automatically convert into a float 
-# prints 39780.0 a float (py default converts to float)
+i
+
+print(int(product_cost) * qty)) # prints 88  
