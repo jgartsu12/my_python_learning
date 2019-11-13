@@ -7,4 +7,5 @@ mixed_list = [42, 32.2, 'Alutve', users]
 
 #can call list fns on the nest list as well: 
 user_list =mixed_list.pop()
-print(user_list) # prints [42, 32.2, 'Alutve']
+print(user_list) # prints users ... popped users [] off
+print(mixed_list) # prints [42, 32.2, 'Alutve']
