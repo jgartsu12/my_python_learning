@@ -5,7 +5,7 @@ totals = [231, 1, 23, 342]
 print(totals) # list gets printed in same exact order
 
 totals.sort()
-print(totals) # prints them in numeric ascending order --> [1, 23, 231, 342] --- lowest to highest number
+print(totals) # prints them in integers ascending order --> [1, 23, 231, 342] --- lowest to highest number
 
 
 tags = ['py', 'dvp', 'tutorials', 'code']
