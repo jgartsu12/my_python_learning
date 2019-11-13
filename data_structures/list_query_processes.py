@@ -4,8 +4,9 @@
 tags = ['python', ' development', 'tutorials', 'code']
 
 number_of_tags = len(tags)
+# how can i grab w/o knowing the index?? 
+last_item = tags[-1] # get last element by passing -1 to grab last element  to grab 'code' which is also index 3
 
 print(number_of_tags) 
+print(last_item) # prints code since it is the last item at index -1 or 3
 
-# len() vs index() 
-    # 4 elements are inside but the it still starts with index 0 so last index value in this list is 3 not four == error: off-by 1-error
