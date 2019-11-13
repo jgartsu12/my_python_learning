@@ -11,5 +11,5 @@ users = ['John', 'Seb', 'Ken']
 print(users) # prints the user with true data structure -- list of str names
 
 #place new element into the list #insert (index_for_placement_value, "inserrted str")
-users.insert(0, 'Anthony') 
-print(users)  #makes list 4 elements with Anthony before John
+users.insert(1, 'Anthony') 
+print(users)  #makes list 4 elements with Anthony after John but before seb
