@@ -4,5 +4,8 @@
 uri = 'https://www.google.com/search?q='
 tags = ['python', 'development', 'tutorial'] # search terms
 formatted_tags = '+'.join(tags) # join all tags together with deliminator which will be a +
+query_uri = f'{uri}{formatted_tags}' # str literal
 
-print(formatted_tags) # prints python+development+tutorial
+print(query_uri) # prints https://www.google.com/search?q=python+development+tutorial
+
+# this is what google does to make a search!! 
