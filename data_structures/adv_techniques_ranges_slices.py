@@ -9,7 +9,7 @@ tags = [
   'programming',
   'computer science'
 ]
+# want to reverse all these index values: how - use slice tech
+tag_range = tags[::-1] # flip entire order of the list
 
-tag_range = tags[:-1:2] # [::interval] --> take every other element from start up to last element
-
-print(tag_range) # prints ['python','tutorials','programming']
+print(tag_range) # prints ['computer science', 'programming', 'code', 'tutorials', 'development', 'python']
