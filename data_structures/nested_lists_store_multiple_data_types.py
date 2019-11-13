@@ -5,4 +5,6 @@ ids = [ 1, 2, 3, 4]
 
 mixed_list = [42, 32.2, 'Alutve', users]
 
-print(mixed_list) # prints list with nested users variable's list
+#can call list fns on the nest list as well: 
+user_list =mixed_list.pop()
+print(user_list) # prints [42, 32.2, 'Alutve']
