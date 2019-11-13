@@ -6,5 +6,7 @@ product_cost = 89.99
 print(abs(loss)) # prints 20.25
 # automate processes talked aabout and call them on numbes via math fns
 
-print(math.floor(product_cost)) # imported from math library
-#prints 89 - printed floor - could have just called int()
+print(math.floor(product_cost)) 
+# could have just called int() --> may not do cuz floor clearly shows ur intention --> explicit intentions w/ floor
+        # math floor --> wanted rounded down lower value of product_cost ... int() --> intention to convert to an integer
+        
