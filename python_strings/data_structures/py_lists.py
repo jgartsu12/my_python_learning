@@ -10,6 +10,8 @@ users = ['John', 'Seb', 'Ken']
 # strings are immutable but lists muttable - u can change lists
 print(users) # prints the user with true data structure -- list of str names
 
-# .append("add string to list")
-users.append('Ian')
-print(users) # prints list with Ian added to the end of the list
+#query specific elemnts inside of list - how to get access to the list
+print(users[2])
+    # prints Tiffany w/o [ ]; thus is no longer a list object; returns string object Tiffany
+
+print([users[2]]) # prints ['Tiffany']
