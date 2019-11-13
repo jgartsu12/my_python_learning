@@ -3,13 +3,9 @@ users = ['J', 'K', 'L', 'M']
 
 print(users)
 
-#secdond method : pop() fn
-    # pop - removes very last element but takes the  last item and returns it so u can use the element
-popped_user = users.pop() # stores last element in this variaable
+# 3rd method : del 
 
-print(popped_user)  # returns L
-print(users) # prints ['J', 'K', 'L'] 
-
-# use case with pop()
-    # process a long list to process payment notice  as u go throug hea list u can go through ea one loop over and pop last one off to send off notification so u dont send that user a duplicate msg
-    # used in alg
+del users[0] # argument is index value  u want to remove
+ # use case - know list and its index value and u want to remove that value
+print(users)
+    # deletes 0 index which is 'J' so it prints ['K', 'L', 'M']
