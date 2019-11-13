@@ -10,4 +10,6 @@ tags = [
   'computer science'
 ]
 
-tag_range = tags[1:-1] # going to start with second element with dvp and go all the way up to comp sci and not include it
+tag_range = tags[:-1:2] # [::interval] --> take every other element from start up to last element
+
+print(tag_range) # prints ['python','tutorials','programming']
