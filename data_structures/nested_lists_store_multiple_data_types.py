@@ -5,7 +5,4 @@ ids = [ 1, 2, 3, 4]
 
 mixed_list = [42, 32.2, 'Alutve', users]
 
-#can call list fns on the nest list as well: 
-user_list =mixed_list.pop()
-print(user_list) # prints users ... popped users [] off
-print(mixed_list) # prints [42, 32.2, 'Alutve']
+nested_lists = [[2,34,5], [1,23,4], [4,5,3]]  # keep datatypes same in this nested lists --- reccomended for large lists
