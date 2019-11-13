@@ -9,3 +9,5 @@ query_uri = f'{uri}{formatted_tags}' # str literal
 print(query_uri) # prints https://www.google.com/search?q=python+development+tutorial
 
 # this is what google does to make a search!! 
+
+# deliminator + can be anything u want
