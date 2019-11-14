@@ -12,6 +12,6 @@ sale_prices = [
     3
 ]
 
-sale_prices.sort() # this changesd the entire structure of the items in the list
+sorted_list = sale_prices.sort() # store new list in a variable
 
-print(sale_prices) # [1, 3, 10, 40, 83, 100, 220, 400]
+print(sorted_list) # prints None --> sort() fn doesnt return a value
