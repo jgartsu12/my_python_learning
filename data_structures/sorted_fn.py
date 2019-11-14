@@ -14,7 +14,6 @@ sale_prices = [
 ]
 
 sorted_list = sorted(sale_prices) # sorted(argument_list)
-
+            # demonstrates that orignal list stays saved with sorted()
 print(sorted_list) # prints [1, 3, 10, 40, 83, 100, 100, 220, 400] not none
-
-# algortithms need spc unsorted or sorted actually 
+print(sale_prices) # prints original list in same order : [100, 83, 220,40, 100, 400, 10, 1, 3]
