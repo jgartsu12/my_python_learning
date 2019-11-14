@@ -21,12 +21,12 @@ sale_prices = [
 ]
 
 #sorted method to sort lists
-sorted_sales_prices = sorted(sale_prices)
-num_of_sales = len(sorted_sales_prices)
-half_slice = math.floor(num_of_sales/2)
+sorted_sales_prices = sorted(sale_prices) # sort list
+num_of_sales = len(sorted_sales_prices) # count number of items in list
+half_slice = math.floor(num_of_sales/2) # for all odd numbers get us .5 so we want nearest small whole number int
 first_sales_items = sorted_sales_prices[:half_slice] # first slice to grab first four elements (floor takes 4.5 and provides 4 since floor rounds down)
 last_sales_items = sorted_sales_prices[:-(half_slice):] # gets last four .... last : brings us all the way to end
-median = sorted_sales_prices[half_slice:(half_slice + 1)]
+median = sorted_sales_prices[half_slice:(half_slice + 1)] # set median variable
 
 print(sorted_sales_prices) # prints sorted() list
 print(num_of_sales) # prints 9
