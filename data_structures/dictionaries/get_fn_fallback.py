@@ -6,6 +6,12 @@ teams = {
   "red sox": ['Price', 'Betts'],
 } 
 # .get() fn takes in to arguments -- ('key searching for', 'backup value if not there')
-featured_team = teams.get('mets', 'No featured team')
+featured_team = teams.get('yankees', 'No featured team')
 
-print(teams) # returns "No featured team" --> best py practice to provide u with instant feedbacjk to tell u it is not in the dicitonary 
+print(teams) # returns "yankees" --> best py practice to provide u with instant feedbacjk to tell u it is not in the dicitonary
+# .get() provides multiple process for look ups --
+# kind of like conditional approach
+# if teams['mets']
+#     ... perform
+#     else:
+#         ... perform this 
