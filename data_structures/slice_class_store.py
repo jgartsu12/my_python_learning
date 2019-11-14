@@ -1,24 +1,20 @@
 tags = [
-  'python',  # index
-  'development',
-  'tutorials',
-  'code',
-  'programming',
+  'python',  # index =  0
+  'development',   #    1
+  'tutorials', #        2
+  'code', #             3
+  'programming', #      4
 ]
-# explicit approach vs functional approach
+
+#used in machine learning and data science
+# [starting point index : ending point index : step point/interval index]
 print(tags[1:4:2]) # returns --> ['development', 'code'] --> same as below print statement 
 
-slice_obj =slice(1:4:2)  # like tags[2:4:2]  --> skip every element between index 2 ending at the 4th index element
-                        # with slice u could start with second element which has an index  of one to last element with index of 5
+slice_obj = slice(1:4:2)  
+# an alg may return a slice but u may not know the start or stop pts are
+#helper fns with slice class --> [start , stop, index] --> production application
+print(slice_obj.start) # --> returns starting index to see where it started which is 1
+print(slice_obj.stop) # --> returns ending index point to see when it stopped which is 4
+print(slice_obj.step) # --> returns the step --> interval which is 2
+print(tags[slice_obj]) 
 
-print(slice_obj) # returns slice(None, 2, None)
-                        # explaination of these 3 arguments returned in slice:
-                       
-                        #       1. Start point
-                        #       2. Step
-                        #       3. End point 
-
-print(tags[slice_obj]) # --> this retrieves ['python', 'development'] result set previously obtained in print(slice_obj)
-                        # returns --> ['development', 'code'] which is the same as print(tags[1:4:2])
-
-# an alg may return a slice but u may not know the start or stop
