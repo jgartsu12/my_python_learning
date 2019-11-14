@@ -13,7 +13,6 @@ sale_prices = [
     3
 ]
 
-sorted_list = sorted(sale_prices) # sorted(argument_list)
-            # demonstrates that orignal list stays saved with sorted()
-print(sorted_list) # prints [1, 3, 10, 40, 83, 100, 100, 220, 400] not none
-print(sale_prices) # prints original list in same order : [100, 83, 220,40, 100, 400, 10, 1, 3]
+sorted_list = sorted(sale_prices, reverse=True) # sorted(argument_list, reverse order)
+
+print(sorted_list) # prints [400, 220, 100, 100, 83, 40, 10, 3, 1] # can set sorted() with reverse in descending integer order
