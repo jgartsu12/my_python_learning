@@ -6,8 +6,6 @@ teams = {
   "red sox": ['Price', 'Betts'],
 } 
 
-teams['astros'] # performs query
-
-featured_team = teams['astros'] # storing query in a variable
-
+featured_team = teams['mets'] # try looking for a key not in the dictionary returns KeyError: "mets"
+                                                                                            # no key name "mets" in the dictioanary
 print(teams)
