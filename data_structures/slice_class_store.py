@@ -6,9 +6,7 @@ tags = [
   'programming',
 ]
 
-# print(tags[:2]) # returns ['python', 'development'] --> result set
-# slice class
+# how to retrieve result set from slice class
 slice_obj =slice(2) 
 
-print(slice_obj) # returns obj that gives u access to the result set it proves as an object
-                        # returned --> slice(None, 2, None)
+print(tags[slice_obj]) # --> this retrieves ['python', 'development'] result set previously obtained in print(slice_obj)
