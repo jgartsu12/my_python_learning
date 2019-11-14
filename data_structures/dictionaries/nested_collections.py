@@ -6,4 +6,4 @@ teams = {  # teams dictionary  with key being the team, value [players list]
   "astros": ["Altuve", "Correa", "Bregman"]
 }
 
-print(teams['astros']) # parsing the list 
+print(teams['astros'][:2]) #use slice to get return --> ['Alutve', 'Correa']
