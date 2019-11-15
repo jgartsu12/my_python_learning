@@ -19,6 +19,31 @@ teams = [ # list of
 ]
 
 print(teams[0]) # prints astros dictionary
+'''
+{   
+    'astros': { # key : value         # index 0
+      '2B': 'Altuve', # elements
+      'SS': 'Correa',
+      '3B': 'Bregman',
+    }
+  } 
+'''
+
+angels = teams[1].get('angels', 'team not found')
+
+print(angels)
+# returns :
+''' 
+{   
+    'angels': {           # index 1
+      'OF': 'Trout',
+      'DH': 'Pujols',
+    }
+  }
+'''
+
+print(angels.values()) # returns: dict_values(['Trout', 'Pujols'])
+
 
 
 
