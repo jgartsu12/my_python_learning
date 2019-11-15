@@ -10,8 +10,17 @@ teams = {
 
 team_groupings = teams.items()
 
-print(len(team_groupings)) # --> returns length with lens() fn
-                      # returns 4
+print(list(team_groupings)) # --> returns teams in a converted list 
+# returned: 
+""" tuples = (....)
+[
+  ('astros', ['Altuve', 'Correa', 'Bregman']),
+  ('angels', ['Trout', 'Pujols']),
+  ('yankees', ['Judge', 'Stanton']),
+  ('red sox', ['Price', 'Betts'])
+]  --> convert view obj into a list
+"""
+                      
 
 
 
