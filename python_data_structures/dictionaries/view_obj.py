@@ -10,12 +10,20 @@ teams = {
 
 team_groupings = teams.items()
 
-print(list(team_groupings)) # --> returns teams in a converted list 
-# returned: 
+print(list(team_groupings)[1]) # --> returns teams in a converted list  at index 1
+# returned:    ('angels', ['Trout', 'Pujols']),
+
+
+
+
+
+
+
+
+
 """ tuples = (....)
 [
   ('astros', ['Altuve', 'Correa', 'Bregman']),
-  ('angels', ['Trout', 'Pujols']),
   ('yankees', ['Judge', 'Stanton']),
   ('red sox', ['Price', 'Betts'])
 ]  --> convert view obj into a list
