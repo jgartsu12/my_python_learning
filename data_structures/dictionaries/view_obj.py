@@ -1,5 +1,5 @@
 # Guide to Python Dictionary View Objects
-# view obj -->  how to treat like a list
+# view obj -->  thread safety
 players = {
   "ss" : "Correa", 
   "2b" : "Altuve",
@@ -8,10 +8,12 @@ players = {
   "OF" : "Springer",
 }
 
-# how to treat view obj like a list
-print(list(players.values()))   # convert into list so now can treat like any list
-print(list(players.values())[1]) # retrieve index 1 --> Altuve like a normal list
+# thread safety - thread safe (senior-lvl-dvp) make quick copy of list and then perform our actions
+# use of copy() fn --> perform any actions u want without data change
+player_names = list(players.copy().values())
 
+print(player_names) # prints players {} values aka name of the players
+                        # only we can access these players stored
 teams = {
   "astros" : ["Altuve", "Correa", "Bregman"],
   "angels":  ["Trout", "Pujols"],
