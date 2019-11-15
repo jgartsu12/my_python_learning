@@ -1,6 +1,7 @@
 # Guide to Python Dictionary View Objects
 
-#nested collections in dictionary
+#nested collections in dictionary view obj
+# traversal to grab nestd items in a view obj
 teams = {
   "astros" : ["Altuve", "Correa", "Bregman"],
   "angels":  ["Trout", "Pujols"],
@@ -24,6 +25,7 @@ print(list(team_groupings)[1][1][0]) #chainned elements chained lookups
 """ tuples = (....)
 [
   ('astros', ['Altuve', 'Correa', 'Bregman']),
+   ('angels':  ['Trout', 'Pujols']),
   ('yankees', ['Judge', 'Stanton']),
   ('red sox', ['Price', 'Betts'])
 ]  --> convert view obj into a list
