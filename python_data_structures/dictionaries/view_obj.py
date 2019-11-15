@@ -10,8 +10,8 @@ teams = {
 
 team_groupings = teams.items()
 
-print(team_groupings) # --> returns dicitonary view objt with tuples
-                      # returns the tuple items --> certain fns can be performed on these per doc
+print(len(team_groupings)) # --> returns length with lens() fn
+                      # returns 4
 
 
 
