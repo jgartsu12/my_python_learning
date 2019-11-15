@@ -10,8 +10,8 @@ teams = {
 
 team_groupings = teams.items()
 
-print(list(team_groupings)[1]) # --> returns teams in a converted list  at index 1
-# returned:    ('angels', ['Trout', 'Pujols']),
+print(list(team_groupings)[1][1]) # --> returns teams in a converted list  at index 1 with the index 1 collection inside
+# returned:    ['Trout', 'Pujols']
 
 
 
