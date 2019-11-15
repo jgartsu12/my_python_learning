@@ -2,7 +2,7 @@
 # how one collection can store another collection (web mobile apps; machine learning ...)
 # teams db: list w/ various dictionariies
 # use  case studies to test this out and get used to this to work with API data and db queries!! TO DO (**(*))
-teams = [ # list of
+teams = [ # list with nested dicitionary with more nested collecctions
   {   # dictionary 1
     'astros': { # key : value         # index 0
       '2B': 'Altuve', # elements
@@ -41,9 +41,11 @@ print(angels)
     }
   }
 '''
-
+                                                # idx 0    # idx 1
 print(angels.values()) # returns: dict_values(['Trout', 'Pujols'])
 
+print(list(angels.values())) # ['Trout', 'Pujols']
 
-
+print(list(angels.values())) # returns Pujols # took 4 levels similar to finding api data query
+# take nested data strucuture a piece at a time
 
