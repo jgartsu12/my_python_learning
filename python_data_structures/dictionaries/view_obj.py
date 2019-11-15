@@ -16,12 +16,6 @@ print(list(team_groupings)[1][1][0]) #chainned elements chained lookups
 
 
 
-
-
-
-
-
-
 """ tuples = (....)
 [
   ('astros', ['Altuve', 'Correa', 'Bregman']),
