@@ -3,7 +3,7 @@
 # if ternary op can read like normal language then its good time to use it 
 # reorganzies  a typical conditional works for us
 
-role = 'admin'
+role = 'person111'
 
 # auth = 'can access' if role == 'admin' else 'cannot access'
 
@@ -21,4 +21,4 @@ if role == 'admin':
 else:
     auth = 'cannot access'
 
-print(auth) # prints cann access
+print(auth) # prints cannot access
