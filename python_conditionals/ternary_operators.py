@@ -5,9 +5,11 @@
 
 role = 'person111'
 
-# auth = 'can access' if role == 'admin' else 'cannot access'
+auth = 'can access' if role == 'admin' else 'cannot access' # ternary op - if too many lines use conditional
+# assigning result of ternary operator if condition is true else condition false print this code
+# var = 'print this' if var == True else "print if false" then store it
+print(auth) # => can access
 
-# print(auth) # => can access
 # ~~~~~~~~~~~~~~~
 # role = 'guest'
 
