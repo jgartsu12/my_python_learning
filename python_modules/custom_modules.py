@@ -16,5 +16,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 terminal:
 mkdir python_import
 cd python_import 
-~~~ 
+~~~  go to helper.py
+
 '''
