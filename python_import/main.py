@@ -1,9 +1,9 @@
 import sys
 sys.path.insert(0, './libs')
-from helper import greeting
+import helper as h  # make alias
 
 def render():
-    print(greeting('Tiffany', 'Hudgens'))
+    print(h.greeting('Tiffany', 'Hudgens'))
 
 
 render()
